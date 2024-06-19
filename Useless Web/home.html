@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Death Predictions</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <!-- Javascript-->
+    <script src="java.js"></script>
+    <!-- Google Font: Josefin Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="fog__effect">
+          <div class="foggy imageOne"></div>
+          <div class="foggy imageTwo"></div>
+        </div>
+    </div>
+    <div id="container">
+        <div class="title">Death Predictions</div>
+        <div class="starting">
+            <label for="fname">Enter your name: </label>
+                <input type="text">
+                <button class="starting__button">Start now</button>
+        </div>
+        <div class="welcome__box">Ready to know your future, <span class="username"></span>?</div>
+        <div class="video__box"></div>
+        <div id="user__form">
+            <form action="#" method="get" class="prediction">
+                    <label for="bdate">Enter your birth date:
+                        <input type="date" name="bdate" class="bdate"></label>
+                    <input type="submit" value="Enter" id="btn">
+            </form>
+        </div>
+        <div class="alert__age"></div>
+        <div class="output__prediction">
+            <div><strong>Date of death:</strong> <span class="death__date"></span></div>
+            <div><strong>Cause of death:</strong> <span class="death__cause"></span></div>
+            <div class="death__msg"></div>
+        </div>
+        <button type="button" class="clean">Try again!</button>
+    </div>
+</body>
+</html>
