@@ -4,47 +4,47 @@ window.onload = function() {
     // Here the messages are saved ready to show to the user
     var natural = [
         
-        "Seems that you didn't understand when you mom told you to eat slow, did you?. You chocked on food and died alone.",
+        "Seems that you didn't understand when your mom told you to eat slowly, did you?. You chocked on food and died alone.",
         "You slipped on the wet floor and cracked your head on the stairs. Stop looking at your phone.",
-        "Follow your cheater lover costed your life. Putting youself in front of the car wasn't a smart move.",
-        "You were so young, why did you use viagra? You didn't need it. Rest in peace",
+        "Following your cheater lover costed you your life. Putting yourself in front of the car wasn't a smart move.",
+        "You were so young, why did you use Viagra? You didn't need it. Rest in peace.",
         "You went to the Bahamas and a shark ate you alive. Bon appétit, sharky.",
-        "You were told not to touch it. Stubborn. How does it feel like to be inside a cocodrile?",
-        "Laughing too much was your only flaw. Laughing next to window was a bad idea. Sorry.",
+        "You were told not to touch it. Stubborn. How does it feel to be inside a crocodile?",
+        "Laughing too much was your only flaw. Laughing next to the window was a bad idea. Sorry.",
         "How long did it take you to get to heaven? You were thrown out of a roller coaster.",
         "Eating mushrooms in the forest was a good way to survive, but you ate the wrong one.",
-        "You shouldn't have stayed out so late walking along the train tracks drunk. You lost one leg.",
-        "Why do people like so much red bull? It really gave you wings.",
+        "You shouldn't have stayed out so late walking along the train tracks drunk. You lost both legs.",
+        "Why do people like so much Red Bull? It really gave you wings.",
         "Tarantulas were your friends until one decided to kill you. Bad owner.",
         "Skating alone in a lake of ice turned you into an ice statue, but no one will ever know.",
         "Modeling on a balcony to get a selfie is good, but vanity is not. Don't worry, it didn't hurt.",
         "You are now trending! Spontaneous human combustion is something to talk about.",
         "Lighting a cigarette near a gas station was a brilliant idea. This girl is on fireeee!",
         "You didn't see the signals? A wrecking ball demolished your body. Miley Cirus is proud.",
-        "You didn't know bitting your tongue was dangeruous. You became a vampire.",
-        "Surfing is fun until the waves makes you roll over a rocky shore.",
+        "You didn't know biting your tongue was dangerous. You became a vampire.",
+        "Surfing is fun until the waves make you roll over a rocky shore.",
     ]
     
     var accident = [
         
-        "Your parachute didn't open.",
-        "Aerial rope got broken.",
-        "A stampede killed you, it was a really black Friday.",
+        "Your parachute didn't open. But you know, you were on TV News! Congratulations, falling star.",
+        "Your Aerial rope broke. You died on the scene and traumatized a lot of kids. Not your fault, tho.",
+        "A stampede killed you, it was a really Black Friday.",
         "You fell into a hole, and then it was covered. It was kinda hurtful.",
         "Inhale helium from a balloon was funny until you suffered from asphyxiation.",
-        "You fell asleep on your bathtub.",
-        "A golf ball hit your nose. You couldn't stop the bleeding.",
-        "An ambulance in hurry hit and run over you. They saved you from this life.",
-        "The elevator fell 10 floors. You didn't survive but you saved other lifes.",
-        "You were too much obssesed with cleaning the house. The toxic fumes cleaned your body.",
-        "Noise Cancelling didn't let you hearing when trees were cutting down. ",
-        "Drinking detergent was a tragedy. You didn't notice the smell? You were too thristy.",
-        "An strong earthquake stroke while camping. You were near a cliff of rocks.",
+        "You fell asleep on your bathtub. Or wel..., that is what your lover says. Who knows better than you. ",
+        "A golf ball hit your nose. You couldn't stop the bleeding, you already had recent nose surgery. You wasted your money.",
+        "An ambulance in a hurry hit and run over you. It saved you from this life.",
+        "The elevator fell 10 floors. You didn't survive but you saved other lives. You did a good one!",
+        "You were too much obsessed with cleaning the house. The toxic fumes cleaned your body. God found grace on you because of your purity.",
+        "Noise Cancelling didn't let you hear when trees were cutting down. ",
+        "Drinking detergent was a tragedy. You didn't notice the smell? You were too thirsty.",
+        "A strong earthquake stroke while camping. You were near a cliff of rocks.",
         "A lightning strike hit you. For one second, you were God for having your own light.",
         "Has no one ever told you to make sure the gun is not loaded before cleaning?",
         "A meteorite fell on you when you were walking at night.",
         "A hurricane took you. For a moment you believed you could fly. ",
-        "The airplaned fell in the forest. You survived but you were eaten by animals.",
+        "The airplane fell in the forest. You survived but you were eaten by animals.",
         "You created a car that works with water. Yes, your 'death' was an accident.",
         
     ]    
@@ -82,6 +82,7 @@ window.onload = function() {
             alertage.style.display = "none";
             clean.style.display = "block";
             submitButton.style.display = "none";
+            inputDate.disabled = true;
         }
         return false;
     }
@@ -167,7 +168,7 @@ window.onload = function() {
     
         // Change video source here
         var video = videoBox.querySelector('video');
-        video.src = './videos/Screamer.mp4';
+        video.src = 'videos/Screamer.mp4';
         video.autoplay = true;
         video.loop = false; 
     
@@ -184,7 +185,7 @@ window.onload = function() {
         var video = document.createElement('video');
         
         // Sets the video source
-        video.src = './videos/CoffinDance.mp4';
+        video.src = 'videos/CoffinDance.mp4';
             
         // Sets the video attributes
         video.width = 640; // Sets the width of the video
