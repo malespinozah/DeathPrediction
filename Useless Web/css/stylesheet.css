@@ -165,7 +165,7 @@ body {
 }
   
 .imageOne {
-    background: url("/images/image1.png");
+    background: url("./images/image1.png");
     background-repeat: repeat-x;
     background-size: contain;
     background-position: center;
@@ -173,7 +173,7 @@ body {
 }
   
 .imageTwo {
-    background: url("/images/image2.png");
+    background: url("./images/image2.png");
     background-repeat: repeat-x;
     background-size: contain;
     background-position: center;

@@ -167,7 +167,7 @@ window.onload = function() {
     
         // Change video source here
         var video = videoBox.querySelector('video');
-        video.src = 'videos/Screamer.mp4';
+        video.src = './videos/Screamer.mp4';
         video.autoplay = true;
         video.loop = false; 
     
@@ -184,7 +184,7 @@ window.onload = function() {
         var video = document.createElement('video');
         
         // Sets the video source
-        video.src = 'videos/CoffinDance.mp4';
+        video.src = './videos/CoffinDance.mp4';
             
         // Sets the video attributes
         video.width = 640; // Sets the width of the video
